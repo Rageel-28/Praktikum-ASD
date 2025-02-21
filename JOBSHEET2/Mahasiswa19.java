@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Mahasiswa19 {
-    string nama;
-    string nim;
-    string kelas;
+    String nama;
+    String nim;
+    String kelas;
     double ipk;
 
     void tampilkanInformasi() {
@@ -14,7 +14,7 @@ public class Mahasiswa19 {
 
     }
 
-    void ubahKelas (string kelasBaru) {
+    void ubahKelas (String kelasBaru) {
         kelas = kelasBaru;
     }
 
@@ -29,13 +29,13 @@ public class Mahasiswa19 {
 
     String nilaiKinerja() {
         if (ipk >=3.5 ) {
-            return "kinerja sangat baik"
+            return "kinerja sangat baik";
         } else if (ipk >= 3.0) {
-            return "kinerja baik " 
+            return "kinerja baik " ;
         } else if (ipk >= 2.0) {
-            return "kinerja cukup"
+            return "kinerja cukup";
         } else {
-            return "kinerja kurang"
+            return "kinerja kurang";
         }
     }
 
