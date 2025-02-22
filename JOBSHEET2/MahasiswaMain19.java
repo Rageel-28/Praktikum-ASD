@@ -15,9 +15,9 @@ public class MahasiswaMain19 {
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
 
-        Mahasiswa19 rakagali = new Mahasiswa19("Rakagali Resda krisandi Putra", "244107020136 ", 2.9, "TI 1B");
-        rakagali.tampilkanInformasi();
-        rakagali.updateIpk(3.83);
-        rakagali.tampilkanInformasi();
+        Mahasiswa19 mhsrakagali = new Mahasiswa19("Rakagali Resda krisandi Putra", "244107020136 ", 2.9, "TI 1B");
+        mhsrakagali.tampilkanInformasi();
+        mhsrakagali.updateIpk(3.83);
+        mhsrakagali.tampilkanInformasi();
     }
 }
