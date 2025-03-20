@@ -82,5 +82,6 @@ class DataDosen19 {
 
         System.out.println("\n===== Dosen Paling Muda =====");
         termuda.cetakInfo();
+        
     }
 }

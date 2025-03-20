@@ -13,6 +13,7 @@ public class tugas3 {
         int[] sks = new int[n];
         int[] semester = new int[n];
         String[] hariKuliah = new String[n];
+        
 
       
         for (int i = 0; i < n; i++) {
